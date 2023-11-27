@@ -1,6 +1,6 @@
 ## Commands to get the Website running
 
-| <!-- -->  | <!-- --> |
+| Commands  | Description |
 |---|---|
 | `npm i` | Install dependencies |
 | `npm run sass-dev` | Watch Sass files and compile to CSS |
