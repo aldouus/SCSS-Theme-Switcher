@@ -5,10 +5,12 @@
     "scripts": {
         "sass-dev": "sass --watch --update --style=expanded src/assets/scss:src/assets/css",
         "sass-prod": "sass --no-source-map --style=compressed src/assets/scss:src/assets/css",
-        "sync": "browser-sync start --server src --files src --no-open"
+        "sync": "browser-sync start --server src --files src --no-open",
+        "build": "concurrently \"npm:sass-prod\" \"npx serve .\""
     },
     "devDependencies": {
         "browser-sync": "^2.29.3",
-        "sass": "^1.69.5"
+        "sass": "^1.69.5",
+        "concurrently": "^8.2.2"
     }
 }
