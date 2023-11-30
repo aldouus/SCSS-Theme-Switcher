@@ -1,13 +1,24 @@
-## Commands to get the Website running
+## Commands to get the Site running
 
-| Commands  | Description |
-|---|---|
-| `npm i` | Install dependencies |
-| `npm run sass-dev` | Watch Sass files and compile to CSS |
-| `npm run sass-prod` | Compile Sass files to minified CSS (for production)|
-| `npm run sync` | Start browsersync server |
+Install dependencies
 
+    npm i
+
+Watch Sass files and compile to CSS
+
+    npm run sass-dev
+
+Compile Sass files to minified CSS (for production)
+
+    npm run sass-prod
+
+Start browsersync server
+
+    npm run sync
+
+ <br/>
+ 
 ### Screenshots
 
-![](src/assets/images/screenshots/DarkMode.png)
-![](src/assets/images/screenshots/LightMode.png)
+<img src="src/assets/images/screenshots/DarkMode.png" width="60%">
+<img src="src/assets/images/screenshots/LightMode.png" width="60%">
